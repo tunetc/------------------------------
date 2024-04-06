@@ -1,5 +1,6 @@
-package com.rshu.mppz;
+package com.rshu.mppz.PersistenceLayer.Customer;
 
+import com.rshu.mppz.PersistenceLayer.Order.Order;
 import jakarta.persistence.*;
 import jakarta.validation.constraints.NotEmpty;
 import lombok.Getter;
@@ -7,7 +8,6 @@ import lombok.Setter;
 
 import java.io.Serializable;
 import java.util.Set;
-import java.util.UUID;
 
 @Entity
 @Table(name = "customers")

@@ -1,6 +1,9 @@
 
-package com.rshu.mppz;
+package com.rshu.mppz.PresentationLayer;
 
+import com.rshu.mppz.PersistenceLayer.Customer.Customer;
+import com.rshu.mppz.DatabaseLayer.Customer.CustomerRepository;
+import com.rshu.mppz.PersistenceLayer.Castomers.Customers;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;

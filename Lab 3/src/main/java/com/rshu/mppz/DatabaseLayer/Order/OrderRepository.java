@@ -1,5 +1,7 @@
-package com.rshu.mppz;
+package com.rshu.mppz.DatabaseLayer.Order;
 
+import com.rshu.mppz.PersistenceLayer.Customer.Customer;
+import com.rshu.mppz.PersistenceLayer.Order.Order;
 import org.springframework.dao.DataAccessException;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;

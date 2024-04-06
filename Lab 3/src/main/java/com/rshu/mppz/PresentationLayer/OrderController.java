@@ -1,6 +1,12 @@
 
-package com.rshu.mppz;
+package com.rshu.mppz.PresentationLayer;
 
+import com.rshu.mppz.DatabaseLayer.Customer.CustomerRepository;
+import com.rshu.mppz.DatabaseLayer.Order.OrderRepository;
+import com.rshu.mppz.DatabaseLayer.Product.ProductRepository;
+import com.rshu.mppz.PersistenceLayer.Customer.Customer;
+import com.rshu.mppz.PersistenceLayer.Order.Order;
+import com.rshu.mppz.PersistenceLayer.Product.Product;
 import org.apache.commons.collections4.CollectionUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;

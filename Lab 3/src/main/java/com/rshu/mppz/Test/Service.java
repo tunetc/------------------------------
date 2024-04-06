@@ -1,4 +1,4 @@
-package com.rshu.mppz;
+package com.rshu.mppz.Test;
 
 import org.junit.Test;
 

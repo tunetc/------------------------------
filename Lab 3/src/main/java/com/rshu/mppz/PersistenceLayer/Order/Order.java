@@ -1,14 +1,12 @@
-package com.rshu.mppz;
+package com.rshu.mppz.PersistenceLayer.Order;
 
-import com.fasterxml.jackson.annotation.JsonIgnore;
+import com.rshu.mppz.PersistenceLayer.Customer.Customer;
+import com.rshu.mppz.PersistenceLayer.Product.Product;
 import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.Setter;
-import org.springframework.data.annotation.CreatedDate;
 
-import java.util.Date;
 import java.util.List;
-import java.util.UUID;
 
 @Entity
 @Table(name = "orders")

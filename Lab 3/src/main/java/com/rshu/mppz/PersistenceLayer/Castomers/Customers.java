@@ -1,7 +1,10 @@
-package com.rshu.mppz;
+package com.rshu.mppz.PersistenceLayer.Castomers;
 
 //import javax.xml.bind.annotation.XmlElement;
 //import javax.xml.bind.annotation.XmlRootElement;
+
+import com.rshu.mppz.PersistenceLayer.Customer.Customer;
+
 import java.util.ArrayList;
 import java.util.List;
 

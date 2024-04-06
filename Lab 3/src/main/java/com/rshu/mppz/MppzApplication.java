@@ -9,5 +9,4 @@ public class MppzApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(MppzApplication.class, args);
 	}
-
 }
