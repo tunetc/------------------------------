@@ -1,0 +1,13 @@
+resilience4j:
+  circuitbreaker:
+    instances:
+      timeService:
+        registerHealthIndicator: true
+        slidingWindowSize: 10
+        failureRateThreshold: 90
+        waitDurationInOpenState: 1000
+        permittedNumberOfCallsInHalfOpenState: 3
+        minimumNumberOfCalls: 5
+        writableStackTraceEnabled: false
+timeservice:
+  url: http://localhost:9090/api/v1/common/time
