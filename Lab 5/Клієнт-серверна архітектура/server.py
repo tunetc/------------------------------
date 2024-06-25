@@ -13,7 +13,7 @@ def start_server(host='127.0.0.1', port=1596):
                 if not data:
                     break
                 print(f"Привіт від клієнта {data} from client")
-                conn.sendall(data)  # Echo back the received data
+                conn.sendall(data)
 
 if __name__ == "__main__":
     start_server()
